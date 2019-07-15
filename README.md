@@ -1,2 +1,2 @@
 # simple-blog
-PHP project for school
+PHP project for school!!!
