@@ -92,7 +92,7 @@ main{
 }
 #articles{
     /* border:1px solid black; */
-    width:60%;
+    width:65%;
     min-height:500px;
 }
 .article{
@@ -167,8 +167,8 @@ main{
 }
 /* Aside */
 aside{
-    border:1px solid black;
-    width:35%;
+    /* border:1px solid black; */
+    width:30%;
     height:auto;
 }
 .sidebar-widget{
@@ -239,7 +239,56 @@ aside{
     line-height:20px;
     font-weight: 500;
 }
-
+.post-body h2 a:hover{
+    color:#dddddd;
+}
+.post-meta{
+    color:#B1B1B1;
+    font-style: italic;
+}
+.post-meta a{
+    color:#B1B1B1;
+    
+    text-decoration: none;
+}
+#newsletter{
+    margin-top: 25px;
+    font-weight:600;
+    background-color: #F3F3F3;
+    color:#4A4A4A;
+    transition: all 0.2s ease-out;
+}
+#newsletter:hover{
+    background-color: rgb(175, 118, 175);
+    cursor: pointer;
+    color:white;
+    border-color:#E6E6E6;
+}
+.widget-about a img{
+    height:auto;
+    max-width:100%;
+}
+.widget-about h4{
+    text-align:center;
+    letter-spacing:-0.04em;
+    margin:20px 0 5px;
+    font-weight:700;
+    color:#4A4A4A;
+    font-style: normal;
+    font-size:18px;
+} 
+.author-title{
+    font-size:13px;
+    font-weight: 400;
+    color:#B5B5B5;
+    text-align:center;
+}
+.widget-about p{
+    margin-top: 10px;
+    font-size:17px;
+    color:black;
+    font-weight:400;
+}
 /* Footer */
 footer{
     border:1px solid #CECECE;
