@@ -17,7 +17,7 @@ header{
     justify-content: center;
 }
 nav{
-    width:90%;
+    width:85%;
     display:flex;
     justify-content:space-between;
 }
@@ -88,7 +88,7 @@ main{
 #main-container{
     display:flex;
     justify-content: space-between;
-    width:90%;
+    width:85%;
 }
 #articles{
     /* border:1px solid black; */
@@ -231,12 +231,14 @@ aside{
 .post-image{
     margin-right:20px;
 }
+.post-body h2{
+    font-size:14px;
+    /* line-height:20px; */
+}
 .post-body h2 a{
     text-decoration: none;
     color:#4A4A4A;
     transition: all 0.2s ease-out;
-    font-size:14px;
-    line-height:20px;
     font-weight: 500;
 }
 .post-body h2 a:hover{
@@ -245,6 +247,7 @@ aside{
 .post-meta{
     color:#B1B1B1;
     font-style: italic;
+    font-family: "Lora";
 }
 .post-meta a{
     color:#B1B1B1;
@@ -252,11 +255,23 @@ aside{
     text-decoration: none;
 }
 #newsletter{
-    margin-top: 25px;
+    font-family: "Open Sans", Sans-serif;
+    font-size:12px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    
     font-weight:600;
     background-color: #F3F3F3;
     color:#4A4A4A;
     transition: all 0.2s ease-out;
+}
+.newsletter{
+    margin-bottom: 25px;
+}
+input:focus { 
+    outline: none !important;
+    border-color: rgb(175, 118, 175);
+    box-shadow: 0 0 10px rgb(175, 118, 175);
 }
 #newsletter:hover{
     background-color: rgb(175, 118, 175);
