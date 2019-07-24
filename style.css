@@ -65,6 +65,7 @@ nav ul li a:hover:not(.active) {
 }
 #logo-container{
     text-align: center;
+    margin-top:50px;
 }
 #logo-container img{
     margin-top: 75px;
@@ -80,6 +81,7 @@ nav ul li a:hover:not(.active) {
     color:rgb(119,119,119);
     
 }
+
 /* Main */
 main{
     display:flex;
@@ -342,4 +344,18 @@ footer{
 #footer-bottom a:hover{
     color:rgb(175, 118, 175);
 }
-
+/* To TOP button */
+.fa-angle-up{
+    position:fixed;
+    right:10px;
+    bottom:100px;
+    border:1px solid #717171;
+    color:#717171;
+    border-radius: 4px;
+    padding:0px 6px;
+}
+.fa-angle-up:hover{
+    cursor:pointer;
+    color:rgb(175, 118, 175);
+    border-color: rgb(175, 118, 175);
+}
