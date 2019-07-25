@@ -9,8 +9,5 @@ $(document).ready(function(){
     });
 
     $("#to-top").click(function(){
-        alert();
-        $("html, body").animate({ scrollTop: 0 }, "slow");    });
-   
-    
+        $("html, body").animate({ scrollTop: 0 }, "slow");    });  
 });

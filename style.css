@@ -65,7 +65,6 @@ nav ul li a:hover:not(.active) {
 }
 #logo-container{
     text-align: center;
-    margin-top:50px;
 }
 #logo-container img{
     margin-top: 75px;
@@ -353,6 +352,7 @@ footer{
     color:#717171;
     border-radius: 4px;
     padding:0px 6px;
+    display:none;
 }
 .fa-angle-up:hover{
     cursor:pointer;
