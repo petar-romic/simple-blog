@@ -336,6 +336,10 @@ footer{
     border-color: rgb(175, 118, 175);
 }
 /* Blog post */
+.article-heading{
+    font-size:38.4px;
+    color:#4A4A4A;
+}
 .post-text h3{
     font-size:24px;
     line-height:1.1;
@@ -355,9 +359,5 @@ footer{
     letter-spacing: 0.1px;
     margin-bottom:30px;
 }
-/* css za post */
-.article-heading{
-    font-size:38.4px;
-    color:#4A4A4A;
-}
+
 
