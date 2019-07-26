@@ -59,8 +59,7 @@ nav ul li a:hover:not(.active) {
 #register{
     margin-left: 10px;
 }
-/* pokusaj */
-.hover-purple-color:hover{
+#login:hover, #register:hover{
     cursor: pointer;
     color: rgb(175, 118, 175);
     transition: all 0.2s ease-out;
@@ -122,7 +121,7 @@ main{
 .article-body h2 a{
     font-size:1.6em;
 }
-.article-body h2 a:hover{
+.article-body h2 a:active{
     color:#dddddd;
 }
 .info{
@@ -203,9 +202,9 @@ aside{
 .widget-container ul li a{
     font-size: 16px;
 }
-/* .widget-container ul li a:hover{
+.widget-container ul li a:hover{
     color: rgb(175, 118, 175);
-} */
+}
 .widget-post{
     border-bottom: 1px solid #CECECE;
     display:flex;
@@ -226,7 +225,7 @@ aside{
 .post-body h2 a{
     font-weight: 500;
 }
-.post-body h2 a:hover{
+.post-body h2 a:active{
     color:#dddddd;
 }
 .post-meta{
@@ -300,9 +299,6 @@ footer{
     color:#717171;
     margin-left: 5px;
 }
-/* #footer-socials a:hover{
-    color: rgb(175, 118, 175);
-} */
 #footer-bottom{
     padding: 10px 0 40px;
     font-size: 12px;
@@ -317,12 +313,12 @@ footer{
 #footer-bottom a{
     color:#717171;
 }
-#footer-bottom a:hover{
+#footer-bottom a:hover, #footer-socials a:hover{
     color:rgb(175, 118, 175);
 }
 
 /* To TOP button */
-.fa-angle-up{
+#to-top{
     position:fixed;
     right:10px;
     bottom:100px;
@@ -332,16 +328,15 @@ footer{
     padding:0px 6px;
     display:none;
 }
-.fa-angle-up:hover{
+#to-top:hover{
     cursor:pointer;
-    color:rgb(175, 118, 175);
+    color:white;
+    transition: all 0.2s ease-out;
+    background-color:rgb(175, 118, 175);
     border-color: rgb(175, 118, 175);
 }
 /* Blog post */
-.blog-post-header, .blog-post-text h3{
-    text-align:center;
-}
-.blog-post-text h3{
+.post-text h3{
     font-size:24px;
     line-height:1.1;
     letter-spacing:-0.04em;
@@ -351,7 +346,7 @@ footer{
     margin-top: 10px;
     margin-bottom:20px;
 }
-.blog-post-text p{
+.post-text p{
     text-align:justify;
     font-size:17px;
     font-weight:400;
@@ -360,3 +355,9 @@ footer{
     letter-spacing: 0.1px;
     margin-bottom:30px;
 }
+/* css za post */
+.article-heading{
+    font-size:38.4px;
+    color:#4A4A4A;
+}
+

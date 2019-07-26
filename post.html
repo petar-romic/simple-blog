@@ -16,20 +16,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="display-flex">
+    <header>
         <div id="nav-container" class="dark-grey-background">
             <nav>
                 <ul>
-                    <li><a class="active" href="#">Početna</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">O autoru</a></li>
+                    <li><a class="active nav-link" href="#">Početna</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
+                    <li><a href="#" class="nav-link">Kontakt</a></li>
+                    <li><a href="#" class="nav-link">O autoru</a></li>
                 </ul>
-                <div id="autentifikacija">
-                    <span class="logovanje-registracija" id="logovanje"><i class="fas fa-unlock-alt"></i> Prijavi se
+                <div id="authentication">
+                    <span id="login">
+                        <i class="fas fa-unlock-alt"></i> Prijavi se
                     </span>
                         | 
-                    <span class="logovanje-registracija" id="registracija"><i class="fas fa-user-plus"></i> Registruj se</span>
+                    <span id="register">
+                        <i class="fas fa-user-plus"></i> Registruj se
+                    </span>
                 </div>
             </nav>
         </div>
@@ -42,30 +45,27 @@
     <main>
         <div id="main-container">
         <section id="articles">
-            <article class="blog-post">
+            <article class="article">
                 <div class="article-picture">
-                    <a href="post.html"><img src="images/750x500-1.jpg" alt="slika"></a>
+                    <img src="images/750x500-1.jpg" alt="slika"/>
                 </div>
                 <div class="article-body">
-                    <div class="blog-post-header">
-                            <h2><a href="post.html">Vintage-Inspired Finds for Your Home</a></h2>
-                            <div class="info">
-                                <span><i class='fas fa-pen'></i> by Jamie Mooze</span>
-                                <span><i class="fas fa-calendar-alt"></i> March 14, 2019</span>
-                                <span>Categories: Fashion, Favorite</span>
-                                <span><i class="fas fa-comment"></i> 201</span>
-                            </div>
+                    <h2 class="article-heading">Vintage-Inspired Finds for Your Home</h2>
+                    <div class="info">
+                        <span><i class='fas fa-pen'></i> by Jamie Mooze</span>
+                        <span><i class="fas fa-calendar-alt"></i> March 14, 2019</span>
+                        <span>Categories: Fashion, Favorite</span>
+                        <span><i class="fas fa-comment"></i> 201</span>
                     </div>
-                    <div class="blog-post-text">
-
+                    <div class="post-text">
                         <p>A newly-developed mathematical method can detect geometric structure in neural activity in the brain. “Previously, in order to understand this structure, scientists needed to relate neural activity to some specific external stimulus,” said Vladimir Itskov, associate professor of mathematics at Penn State University. “Our method is the first to be able to reveal this structure without our knowing an external stimulus ahead of time. We’ve now shown that our new method will allow us to explore the organizational structure of neurons without knowing their function in advance.”</p>
 
-                        <p>“The traditional methods used by researchers to analyze the relationship between the activities of neurons were adopted from physics,” said Carina Curto, associate professor of mathematics at Penn State, “but neuroscience data doesn’t necessarily play by the same rules as data from physics, so we need new tools. Our method is a first step toward developing a new mathematical toolkit to uncover the structure of neural circuits with unknown function in the brain.”</p>
+								<p>“The traditional methods used by researchers to analyze the relationship between the activities of neurons were adopted from physics,” said Carina Curto, associate professor of mathematics at Penn State, “but neuroscience data doesn’t necessarily play by the same rules as data from physics, so we need new tools. Our method is a first step toward developing a new mathematical toolkit to uncover the structure of neural circuits with unknown function in the brain.”</p>
 
-                        <h3>Math reveals structure in neural activity in the brain</h3>
-                        <p>The method — clique topology — was developed by an interdisciplinary team of researchers at Penn State, the University of Pennsylvania, the Howard Hughes Medical Institute, and the University of Nebraska-Lincoln. The method is described in a paper that will be posted in the early online edition of the journal Proceedings of the National Academy of Sciences during the week ending October 23, 2015.</p>
+								<h3>Math reveals structure in neural activity in the brain</h3>
+								<p>The method — clique topology — was developed by an interdisciplinary team of researchers at Penn State, the University of Pennsylvania, the Howard Hughes Medical Institute, and the University of Nebraska-Lincoln. The method is described in a paper that will be posted in the early online edition of the journal Proceedings of the National Academy of Sciences during the week ending October 23, 2015.</p>
 
-                        <p>“We have adopted approaches from the field of algebraic topology that previously had been used primarily in the domain of pure mathematics and have applied them to experimental data on the activity of place cells — specialized neurons in the part of the brain called the hippocampus that sense the position of an animal in its environment,” said Curto.</p>
+								<p>“We have adopted approaches from the field of algebraic topology that previously had been used primarily in the domain of pure mathematics and have applied them to experimental data on the activity of place cells — specialized neurons in the part of the brain called the hippocampus that sense the position of an animal in its environment,” said Curto.</p>
                     </div>
                 </div>
             </article>
@@ -188,18 +188,18 @@
             </div>
         </aside>
         </div>
+        <i id="to-top" class='fas fa-angle-up fa-3x'></i>
     </main>
-    <i id="to-top" class='fas fa-angle-up fa-3x'></i>
     <footer>
         <div id="footer-socials">
-            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square fa-3x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square fa-3x hover-purple-color"></i></a>
         </div>
         <div id="footer-bottom">
             <i class="fa fa-copyright"></i> Copyright 2019. All rights reserved.<br>
-            Theme made by <a href="#">Petar Romić</a>
+            Theme made by <a href="#" class="hover-purple-color">Petar Romić</a>
         </div>
     </footer>
     <!-- jQuery CDN -->
