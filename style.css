@@ -92,9 +92,8 @@ main{
     width:85%;
 }
 #articles{
-    /* border:1px solid black; */
     width:65%;
-    min-height:500px;
+    /* min-height:500px; */
 }
 .article{
     display:flex;
@@ -358,4 +357,27 @@ footer{
     cursor:pointer;
     color:rgb(175, 118, 175);
     border-color: rgb(175, 118, 175);
+}
+/* Blog post */
+.blog-post-header, .blog-post-text h3{
+    text-align:center;
+}
+.blog-post-text h3{
+    font-size:24px;
+    line-height:1.1;
+    letter-spacing:-0.04em;
+    font-weight:700;
+    font-style:normal;
+    color:#4A4A4A;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+.blog-post-text p{
+    text-align:justify;
+    font-size:17px;
+    font-weight:400;
+    line-height:28px;
+    color:black;
+    letter-spacing: 0.1px;
+    margin-bottom:30px;
 }
