@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <div id="nav-container">
+        <div id="nav-container" class="dark-grey-background">
             <nav>
                 <ul>
                     <li><a class="active" href="#">Početna</a></li>
@@ -25,11 +25,14 @@
                     <li><a href="#">Kontakt</a></li>
                     <li><a href="#">O autoru</a></li>
                 </ul>
-                <div id="autentifikacija">
-                    <span class="logovanje-registracija" id="logovanje"><i class="fas fa-unlock-alt"></i> Prijavi se
+                <div id="authentication">
+                    <span class="login-register hover-purple-color" id="login">
+                        <i class="fas fa-unlock-alt"></i> Prijavi se
                     </span>
                         | 
-                    <span class="logovanje-registracija" id="registracija"><i class="fas fa-user-plus"></i> Registruj se</span>
+                    <span class="login-register hover-purple-color" id="register">
+                        <i class="fas fa-user-plus"></i> Registruj se
+                    </span>
                 </div>
             </nav>
         </div>
@@ -47,7 +50,7 @@
                     <a href="#"><img src="images/750x500-1.jpg" alt="slika"/></a>
                 </div>
                 <div class="article-body">
-                    <h2><a href="#">Vintage-Inspired Finds for Your Home</a></h2>
+                    <h2><a href="post.html">Vintage-Inspired Finds for Your Home</a></h2>
                     <div class="info">
                         <span><i class='fas fa-pen'></i> by Jamie Mooze</span>
                         <span><i class="fas fa-calendar-alt"></i> March 14, 2019</span>
@@ -94,7 +97,7 @@
         <!-- Aside -->
         <aside>
             <div class="sidebar-widget">
-                <h3 class="sidebar-title">Pretraga</h3>
+                <h3 class="sidebar-title dark-grey-background">Pretraga</h3>
                 <div class="widget-container">
                     <form>
                         <input type="text" placeholder="Pretraži postove.." class="form-control"/> 
@@ -102,21 +105,21 @@
                 </div>
             </div>
             <div class="sidebar-widget">
-                <h3 class="sidebar-title">Kategorije</h3>
+                <h3 class="sidebar-title dark-grey-background">Kategorije</h3>
                 <div class="widget-container">
                     <ul>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Art</a></li>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">Featured</a></li>
-                        <li><a href="#">Graphics</a></li>
-                        <li><a href="#">Peoples</a></li>
-                        <li><a href="#">Uncategorized</a></li>
+                        <li><a href="#" class="hover-purple-color">Fashion</a></li>
+                        <li><a href="#" class="hover-purple-color">Art</a></li>
+                        <li><a href="#" class="hover-purple-color">Design</a></li>
+                        <li><a href="#" class="hover-purple-color">Featured</a></li>
+                        <li><a href="#" class="hover-purple-color">Graphics</a></li>
+                        <li><a href="#" class="hover-purple-color">Peoples</a></li>
+                        <li><a href="#" class="hover-purple-color">Uncategorized</a></li>
                     </ul>
                 </div>
             </div>
             <div class="sidebar-widget">
-                <h3 class="sidebar-title">Najčitaniji članci</h3>
+                <h3 class="sidebar-title dark-grey-background">Najčitaniji članci</h3>
                 <div class="widget-container">
                     <!-- MALI POST -->
                     <article class="widget-post">
@@ -189,7 +192,7 @@
             </div>
             <!-- sidebar-widget -->
             <div class="sidebar-widget">
-                <h3 class="sidebar-title">Newsletter</h3>
+                <h3 class="sidebar-title dark-grey-background">Newsletter</h3>
                 <div class="widget-container">
                     <form>
                         <input type="text" placeholder="Unesite ime i prezime.." class="form-control newsletter"/>
@@ -199,7 +202,7 @@
                 </div>
             </div>
             <div class="sidebar-widget">
-                <h3 class="sidebar-title">About Me</h3>
+                <h3 class="sidebar-title dark-grey-background">About Me</h3>
                 <div class="widget-container widget-about">
                     <a href="post.html"><img src="images/author.jpg" alt="autor"></a>
                     <h4>Aleksandra Pajović</h4>
@@ -213,14 +216,14 @@
     <i id="to-top" class='fas fa-angle-up fa-3x'></i>
     <footer>
         <div id="footer-socials">
-            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square fa-3x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-3x hover-purple-color"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square fa-3x hover-purple-color"></i></a>
         </div>
         <div id="footer-bottom">
             <i class="fa fa-copyright"></i> Copyright 2019. All rights reserved.<br>
-            Theme made by <a href="#">Petar Romić</a>
+            Theme made by <a href="#" class="hover-purple-color">Petar Romić</a>
         </div>
     </footer>
     <!-- jQuery CDN -->

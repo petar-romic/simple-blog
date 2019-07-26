@@ -5,6 +5,15 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+/* colors and effects */
+.dark-grey-background{
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    color:#4A4A4A;
+}
 /* Header */
 header{
     display:flex;
@@ -12,7 +21,6 @@ header{
     margin-bottom: 75px;
 }
 #nav-container{
-    background-color:#333333;
     display:flex;
     justify-content: center;
 }
@@ -26,7 +34,6 @@ nav ul{
     display:flex;
 }
 nav ul li a{
-    text-decoration: none;
     text-align: center;
     display:block;
     padding:14px 16px;
@@ -39,29 +46,24 @@ nav ul li a{
 nav ul li a:hover:not(.active) {
     background-color: black;
   }
-#autentifikacija{
+#authentication{
     display:flex;
     align-items: center;
     color:white;
     font-size: 1em;
     padding:14px 16px;
 }
-#logovanje{  
+#login{  
     margin-right: 10px;
 }
-#logovanje:hover{  
-    color: rgb(175, 118, 175);
-}
-
-#registracija{
+#register{
     margin-left: 10px;
 }
-#registracija:hover{
-    color: rgb(175, 118, 175);
-}
-
-.logovanje-registracija:hover{
+/* pokusaj */
+.hover-purple-color:hover{
     cursor: pointer;
+    color: rgb(175, 118, 175);
+    transition: all 0.2s ease-out;
 }
 #logo-container{
     text-align: center;
@@ -77,8 +79,7 @@ nav ul li a:hover:not(.active) {
 #logo-container h3{
     font-weight:normal;
     font-size: 0.8em;
-    color:rgb(119,119,119);
-    
+    color:rgb(119,119,119);  
 }
 
 /* Main */
@@ -93,7 +94,6 @@ main{
 }
 #articles{
     width:65%;
-    /* min-height:500px; */
 }
 .article{
     display:flex;
@@ -102,7 +102,6 @@ main{
     border-bottom: 1px solid #CECECE;
     padding-bottom: 30px;
     margin-bottom: 60px;
-    /* align-items: flex-start; */
 }
 .article:last-child{
     border-bottom: none;
@@ -121,10 +120,7 @@ main{
     padding:15px 0px 20px;
 }
 .article-body h2 a{
-    text-decoration: none;
-    color:#4A4A4A;
     font-size:1.6em;
-    transition: all 0.2s ease-out;
 }
 .article-body h2 a:hover{
     color:#dddddd;
@@ -147,7 +143,6 @@ main{
     line-height: 30px;
 }
 .more{
-    text-decoration: none;
     font-family: "Open Sans", Sans-serif;
     letter-spacing: 1.7px;
     display:inline-block;
@@ -155,11 +150,9 @@ main{
     border:1px solid #E6E6E6;
     border-radius:25px;
     background-color: #F3F3F3;
-    color:#4A4A4A;
     font-weight:600;
     font-size: 12px;
     margin:30px 0px 0px;
-    transition: all 0.2s ease-out;
 }
 .more:hover{
     background-color: rgb(175, 118, 175);
@@ -167,7 +160,6 @@ main{
 }
 /* Aside */
 aside{
-    /* border:1px solid black; */
     width:30%;
     height:auto;
 }
@@ -178,7 +170,6 @@ aside{
     color: #333;
 }
 .sidebar-title{
-    background-color: #2B2B2B;
     color:white;
     text-align: center;
     text-transform: uppercase;
@@ -210,14 +201,11 @@ aside{
     margin-bottom: 10px;
 }
 .widget-container ul li a{
-    text-decoration: none;
     font-size: 16px;
-    color:#4A4A4A;
-    transition: all 0.2s ease-out;
 }
-.widget-container ul li a:hover{
+/* .widget-container ul li a:hover{
     color: rgb(175, 118, 175);
-}
+} */
 .widget-post{
     border-bottom: 1px solid #CECECE;
     display:flex;
@@ -236,9 +224,6 @@ aside{
     /* line-height:20px; */
 }
 .post-body h2 a{
-    text-decoration: none;
-    color:#4A4A4A;
-    transition: all 0.2s ease-out;
     font-weight: 500;
 }
 .post-body h2 a:hover{
@@ -251,15 +236,12 @@ aside{
 }
 .post-meta a{
     color:#B1B1B1;
-    
-    text-decoration: none;
 }
 #newsletter{
     font-family: "Open Sans", Sans-serif;
     font-size:12px;
     letter-spacing: 1.7px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
     font-weight:600;
     background-color: #F3F3F3;
     color:#4A4A4A;
@@ -288,7 +270,6 @@ input:focus {
     letter-spacing:-0.04em;
     margin:20px 0 5px;
     font-weight:700;
-    color:#4A4A4A;
     font-style: normal;
     font-size:18px;
 } 
@@ -318,11 +299,10 @@ footer{
 #footer-socials a{
     color:#717171;
     margin-left: 5px;
-    transition: all 0.2s ease-out;
 }
-#footer-socials a:hover{
+/* #footer-socials a:hover{
     color: rgb(175, 118, 175);
-}
+} */
 #footer-bottom{
     padding: 10px 0 40px;
     font-size: 12px;
@@ -335,13 +315,12 @@ footer{
     text-transform: uppercase;
 }
 #footer-bottom a{
-    text-decoration: none;
     color:#717171;
-    transition: all 0.2s ease-out;
 }
 #footer-bottom a:hover{
     color:rgb(175, 118, 175);
 }
+
 /* To TOP button */
 .fa-angle-up{
     position:fixed;
