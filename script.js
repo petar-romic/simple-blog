@@ -12,8 +12,8 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, "slow");    }); 
 
     // switch active class nav bar
-    $(".nav-link").click(function(e){
-        e.preventDefault();
+    $(".nav-link").click(function(){
+        //e.preventDefault();
         $(".nav-link").removeClass("active");
         $(this).addClass("active");
     }); 
