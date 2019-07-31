@@ -359,5 +359,24 @@ footer{
     letter-spacing: 0.1px;
     margin-bottom:30px;
 }
-
+/* blog page */
+.blog-page-img{
+    width:270px;
+    height:auto;
+}
+.blog-post-body{
+    text-align:center;
+    
+}
+.blog-post-body h2{
+    font-size:20px;
+    line-height: 24px;
+}
+.blog-post-body a{
+    line-height: 20px;
+}
+.blog-post-body p{
+    text-align: justify;
+    line-height: 20px;
+}
 
