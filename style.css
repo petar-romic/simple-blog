@@ -379,4 +379,21 @@ footer{
     text-align: justify;
     line-height: 20px;
 }
+/* pagination */
+.pagination{
+    display:flex;
+    justify-content: center;
+}
+.pagination a{
+    padding: 8px 16px;
+    border-radius:4px;
+}
+.active-pagination{
+    color:white;
+    background-color:rgb(175, 118, 175);
+}
+.pagination a:hover:not(.active){
+    color:white;
+    background-color:#B5B5B5;
+}
 
